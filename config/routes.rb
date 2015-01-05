@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   
   get 'ordering/new' => 'ordering#new'
+  post 'ordering/create' => "ordering#create"
 end
